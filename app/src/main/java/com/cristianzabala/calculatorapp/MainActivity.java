@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
             resultado.setText(String.valueOf(result));
         } catch (NumberFormatException e) {
             Toast.makeText(this, "Por favor ingrese números válidos", Toast.LENGTH_SHORT).show();
-        }
+        }23
     }
 
     public void clickRestar(View view) {
